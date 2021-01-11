@@ -4,6 +4,7 @@ import { Container } from "react-bootstrap";
 // Component Imports
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import HomePage from "./pages/HomePage";
 // Functional Component
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
       <Header />
       <main className="py-3">
         <Container>
-          <h1>Welcome to ProCam Shop</h1>
+          <HomePage />
         </Container>
       </main>
       <Footer />
