@@ -2,7 +2,7 @@
 import React from "react";
 import { LinkContainer } from "react-router-bootstrap";
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
-// Component Imports
+// Components/Files Imports
 
 // Functional Component
 const Header = () => {

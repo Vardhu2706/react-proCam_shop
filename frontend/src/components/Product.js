@@ -2,7 +2,7 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
-// Component Imports
+// Components/Files Imports
 import Rating from "../components/Rating";
 // Functional Component
 const Product = ({ product }) => {
