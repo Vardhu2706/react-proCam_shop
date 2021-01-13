@@ -16,7 +16,7 @@ const ProductPage = ({ match }) => {
       setProduct(data);
     };
     fetchProduct();
-  }, []);
+  }, [match]);
   return (
     <>
       <Link className="btn btn-light my-3" to="/">
