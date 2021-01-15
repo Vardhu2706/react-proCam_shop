@@ -35,19 +35,19 @@ const orderSchema = mongoose.Schema(
     shippingAddress: {
       address: {
         type: String,
-        required: TextTrackCue,
+        required: true,
       },
       city: {
         type: String,
-        required: TextTrackCue,
+        required: true,
       },
       postalCode: {
         type: String,
-        required: TextTrackCue,
+        required: true,
       },
       country: {
         type: String,
-        required: TextTrackCue,
+        required: true,
       },
     },
     paymentMethod: {
