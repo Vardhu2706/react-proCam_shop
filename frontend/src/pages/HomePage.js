@@ -5,6 +5,8 @@ import { useDispatch, useSelector } from "react-redux";
 // Component/File Imports
 import Product from "../components/Product";
 import { listProducts } from "../actions/productActions";
+import Message from "../components/Message";
+import Loader from "../components/Loader";
 
 const HomePage = () => {
   const dispatch = useDispatch();
@@ -18,9 +20,9 @@ const HomePage = () => {
     <>
       <h1>Latest Camera Products</h1>
       {loading ? (
-        <h1>Loading...</h1>
+        <Loader />
       ) : error ? (
-        <h3>{error}</h3>
+        <Message variant="danger">{error}</Message>
       ) : (
         <Row>
           {products.map((product) => (
