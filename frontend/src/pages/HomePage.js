@@ -7,6 +7,7 @@ import Product from "../components/Product";
 import { listProducts } from "../actions/productActions";
 import Message from "../components/Message";
 import Loader from "../components/Loader";
+import Categories from "../components/Categories";
 
 const HomePage = () => {
   const dispatch = useDispatch();
@@ -18,7 +19,9 @@ const HomePage = () => {
 
   return (
     <>
-      <h1>Latest Camera Products</h1>
+      <h1>CAMERA GEAR CATEGORIES</h1>
+      <Categories />
+      <h1>RECOMMENDED PRODUCTS</h1>
       {loading ? (
         <Loader />
       ) : error ? (
