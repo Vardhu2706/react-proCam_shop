@@ -1,5 +1,6 @@
 // Helpers Imports
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import { Row, Col } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 // Component/File Imports
@@ -35,6 +36,23 @@ const HomePage = () => {
           ))}
         </Row>
       )}
+      <Message variant="alert alert-primary" className="social_banner">
+        <h4>Follow us on social media!</h4>
+        <div>
+          <a rel="noopener noreferrer" href="https://www.facebook.com/" target="_blank">
+            <i className="fab fa-facebook-square fa-2x"></i>
+          </a>
+          <a rel="noopener noreferrer" href="https://twitter.com/" target="_blank">
+            <i className="fab fa-twitter-square fa-2x"></i>
+          </a>
+          <a rel="noopener noreferrer" href="https://www.instagram.com/" target="_blank">
+            <i className="fab fa-instagram-square fa-2x"></i>
+          </a>
+          <a rel="noopener noreferrer" href="https://www.pinterest.com/" target="_blank">
+            <i className="fab fa-pinterest-square fa-2x"></i>
+          </a>
+        </div>
+      </Message>
     </>
   );
 };

@@ -43,6 +43,9 @@ const Header = () => {
                   <NavDropdown.Item>Teleconverters</NavDropdown.Item>
                 </LinkContainer>
               </NavDropdown>
+              <LinkContainer to="/products">
+                <Nav.Link>Products</Nav.Link>
+              </LinkContainer>
               <LinkContainer to="/cart">
                 <Nav.Link>
                   <i className="fas fa-shopping-cart"></i>

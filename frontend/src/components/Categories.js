@@ -11,7 +11,7 @@ const Categories = () => {
             <Link>
               <img
                 className="card-img-top"
-                src="/images/drives_and_storage/samsung_fit_plus_sub_3-1_flash_drive.jpg"
+                src="/images/battery_grips.jpg"
                 alt="drives-and-storage"
               />
             </Link>
@@ -29,7 +29,7 @@ const Categories = () => {
             <Link>
               <img
                 className="card-img-top"
-                src="/images/drives_and_storage/samsung_fit_plus_sub_3-1_flash_drive.jpg"
+                src="/images/storage.jpg"
                 alt="drives-and-storage"
               />
             </Link>
@@ -47,7 +47,7 @@ const Categories = () => {
             <Link>
               <img
                 className="card-img-top"
-                src="/images/drives_and_storage/samsung_fit_plus_sub_3-1_flash_drive.jpg"
+                src="/images/flashes.jpg"
                 alt="drives-and-storage"
               />
             </Link>
@@ -65,7 +65,7 @@ const Categories = () => {
             <Link>
               <img
                 className="card-img-top"
-                src="/images/drives_and_storage/samsung_fit_plus_sub_3-1_flash_drive.jpg"
+                src="/images/flash_trigger.jpg"
                 alt="drives-and-storage"
               />
             </Link>
@@ -85,7 +85,7 @@ const Categories = () => {
             <Link>
               <img
                 className="card-img-top"
-                src="/images/drives_and_storage/samsung_fit_plus_sub_3-1_flash_drive.jpg"
+                src="/images/lenses.jpg"
                 alt="drives-and-storage"
               />
             </Link>
@@ -103,7 +103,7 @@ const Categories = () => {
             <Link>
               <img
                 className="card-img-top"
-                src="/images/drives_and_storage/samsung_fit_plus_sub_3-1_flash_drive.jpg"
+                src="/images/light_modifiers.jpg"
                 alt="drives-and-storage"
               />
             </Link>
@@ -121,7 +121,7 @@ const Categories = () => {
             <Link>
               <img
                 className="card-img-top"
-                src="/images/drives_and_storage/samsung_fit_plus_sub_3-1_flash_drive.jpg"
+                src="/images/studio_lights.jpg"
                 alt="drives-and-storage"
               />
             </Link>
@@ -139,7 +139,7 @@ const Categories = () => {
             <Link>
               <img
                 className="card-img-top"
-                src="/images/drives_and_storage/samsung_fit_plus_sub_3-1_flash_drive.jpg"
+                src="/images/teleconverter.jpg"
                 alt="drives-and-storage"
               />
             </Link>

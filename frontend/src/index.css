@@ -32,3 +32,8 @@ h2 {
 .col-md-3 {
   margin: 10px 0;
 }
+
+.alert {
+  display: block;
+  text-align: center;
+}
