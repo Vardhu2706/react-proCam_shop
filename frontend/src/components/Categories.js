@@ -11,7 +11,7 @@ const Categories = () => {
             <Link>
               <img
                 className="card-img-top"
-                src="/images/battery_grips.jpg"
+                src="/images/battery_grips/Main.png"
                 alt="drives-and-storage"
               />
             </Link>
@@ -29,7 +29,7 @@ const Categories = () => {
             <Link>
               <img
                 className="card-img-top"
-                src="/images/storage.jpg"
+                src="/images/2.png"
                 alt="drives-and-storage"
               />
             </Link>
@@ -47,7 +47,7 @@ const Categories = () => {
             <Link>
               <img
                 className="card-img-top"
-                src="/images/flashes.jpg"
+                src="/images/3.png"
                 alt="drives-and-storage"
               />
             </Link>
@@ -65,7 +65,7 @@ const Categories = () => {
             <Link>
               <img
                 className="card-img-top"
-                src="/images/flash_trigger.jpg"
+                src="/images/4.png"
                 alt="drives-and-storage"
               />
             </Link>
@@ -85,7 +85,7 @@ const Categories = () => {
             <Link>
               <img
                 className="card-img-top"
-                src="/images/lenses.jpg"
+                src="/images/5.png"
                 alt="drives-and-storage"
               />
             </Link>
@@ -103,7 +103,7 @@ const Categories = () => {
             <Link>
               <img
                 className="card-img-top"
-                src="/images/light_modifiers.jpg"
+                src="/images/6.png"
                 alt="drives-and-storage"
               />
             </Link>
@@ -121,7 +121,7 @@ const Categories = () => {
             <Link>
               <img
                 className="card-img-top"
-                src="/images/studio_lights.jpg"
+                src="/images/7.png"
                 alt="drives-and-storage"
               />
             </Link>
@@ -139,7 +139,7 @@ const Categories = () => {
             <Link>
               <img
                 className="card-img-top"
-                src="/images/teleconverter.jpg"
+                src="/images/8.png"
                 alt="drives-and-storage"
               />
             </Link>
