@@ -6,20 +6,34 @@ import {
 } from "./reducers/productReducers";
 import { composeWithDevTools } from "redux-devtools-extension";
 import { cartReducer } from "./reducers/cartReducers";
+import { userLoginReducer, userReducers } from "./reducers/userReducers";
+
 const reducer = combineReducers({
   productList: productListReducers,
   productDetails: productDetailsReducers,
   cart: cartReducer,
+  userLogin: userLoginReducer,
 });
+
 const carItemsFromStorage = localStorage.getItem("cartItems")
   ? JSON.parse(localStorage.getItem("cartItems"))
   : [];
+
+const userInfoFromStorage = localStorage.getItem("userInfo")
+  ? JSON.parse(localStorage.getItem("userInfo"))
+  : null;
+
 const initialState = {
   cart: {
     cartItems: carItemsFromStorage,
   },
+  userLogin: {
+    userInfo: userInfoFromStorage,
+  },
 };
+
 const middleware = [thunk];
+
 const store = createStore(
   reducer,
   initialState,
