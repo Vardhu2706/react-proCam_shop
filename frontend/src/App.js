@@ -10,6 +10,7 @@ import ProductPage from "./pages/ProductPage";
 import CartPage from "./pages/CartPage";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
+import ProductsPage from "./pages/ProductsPage";
 // Functional Component
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Container>
           <Route path="/login" component={LoginPage} />
           <Route path="/register" component={RegisterPage} />
+          <Route path="/products" component={ProductsPage} />
           <Route path="/products/:id" component={ProductPage} />
           <Route path="/cart/:id?" component={CartPage} />
           <Route path="/" component={HomePage} exact />

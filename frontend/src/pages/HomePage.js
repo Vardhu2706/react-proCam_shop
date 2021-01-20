@@ -9,6 +9,7 @@ import { listProducts } from "../actions/productActions";
 import Message from "../components/Message";
 import Loader from "../components/Loader";
 import Categories from "../components/Categories";
+import Recommended from "../components/Recommended";
 
 const HomePage = () => {
   const dispatch = useDispatch();
@@ -23,7 +24,7 @@ const HomePage = () => {
       <h1>CAMERA GEAR CATEGORIES</h1>
       <Categories />
       <h1>RECOMMENDED PRODUCTS</h1>
-      {loading ? (
+      {/* {loading ? (
         <Loader />
       ) : error ? (
         <Message variant="danger">{error}</Message>
@@ -35,20 +36,37 @@ const HomePage = () => {
             </Col>
           ))}
         </Row>
-      )}
+      )} */}
+      <Recommended />
       <Message variant="alert alert-primary" className="social_banner">
         <h4>Follow us on social media!</h4>
         <div>
-          <a rel="noopener noreferrer" href="https://www.facebook.com/" target="_blank">
+          <a
+            rel="noopener noreferrer"
+            href="https://www.facebook.com/"
+            target="_blank"
+          >
             <i className="fab fa-facebook-square fa-2x"></i>
           </a>
-          <a rel="noopener noreferrer" href="https://twitter.com/" target="_blank">
+          <a
+            rel="noopener noreferrer"
+            href="https://twitter.com/"
+            target="_blank"
+          >
             <i className="fab fa-twitter-square fa-2x"></i>
           </a>
-          <a rel="noopener noreferrer" href="https://www.instagram.com/" target="_blank">
+          <a
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/"
+            target="_blank"
+          >
             <i className="fab fa-instagram-square fa-2x"></i>
           </a>
-          <a rel="noopener noreferrer" href="https://www.pinterest.com/" target="_blank">
+          <a
+            rel="noopener noreferrer"
+            href="https://www.pinterest.com/"
+            target="_blank"
+          >
             <i className="fab fa-pinterest-square fa-2x"></i>
           </a>
         </div>
