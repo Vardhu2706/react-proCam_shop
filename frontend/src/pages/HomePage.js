@@ -24,19 +24,6 @@ const HomePage = () => {
       <h1>CAMERA GEAR CATEGORIES</h1>
       <Categories />
       <h1>RECOMMENDED PRODUCTS</h1>
-      {/* {loading ? (
-        <Loader />
-      ) : error ? (
-        <Message variant="danger">{error}</Message>
-      ) : (
-        <Row>
-          {products.map((product) => (
-            <Col key={product._id} sm={12} md={6} lg={4} ex={3}>
-              <Product product={product} />
-            </Col>
-          ))}
-        </Row>
-      )} */}
       <Recommended />
       <Message variant="alert alert-primary" className="social_banner">
         <h4>Follow us on social media!</h4>

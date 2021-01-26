@@ -53,7 +53,7 @@ const Header = () => {
                   <NavDropdown.Item>Teleconverters</NavDropdown.Item>
                 </LinkContainer>
                 <NavDropdown.Divider />
-                <LinkContainer to="products/teleconverters">
+                <LinkContainer to="products/">
                   <NavDropdown.Item>All Products</NavDropdown.Item>
                 </LinkContainer>
               </NavDropdown>
