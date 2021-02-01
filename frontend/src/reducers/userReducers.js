@@ -10,7 +10,7 @@ import {
   USER_DETAILS_SUCCESS,
   USER_DETAILS_FAIL,
 } from "../constants/userConstants";
-
+// User-Login reducer
 export const userLoginReducer = (state = {}, action) => {
   switch (action.type) {
     case USER_LOGIN_REQUEST:
@@ -25,7 +25,7 @@ export const userLoginReducer = (state = {}, action) => {
       return state;
   }
 };
-
+// User-Register reducer
 export const userRegisterReducer = (state = {}, action) => {
   switch (action.type) {
     case USER_REGISTER_REQUEST:
@@ -40,7 +40,7 @@ export const userRegisterReducer = (state = {}, action) => {
       return state;
   }
 };
-
+// User-Details reducer
 export const userDetailsReducer = (state = { user : {}}, action) => {
   switch (action.type) {
     case USER_DETAILS_REQUEST:
