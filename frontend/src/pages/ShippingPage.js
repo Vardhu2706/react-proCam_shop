@@ -56,7 +56,7 @@ const ShippingPage = ({ history }) => {
         <Form.Group controlId="postalCode">
           <Form.Label>Postal Code</Form.Label>
           <Form.Control
-            type="number"
+            type="text"
             placeholder="Enter Postal Code"
             value={postalCode}
             required
