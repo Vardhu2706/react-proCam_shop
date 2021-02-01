@@ -18,11 +18,12 @@ const RegisterPage = ({ location, history }) => {
   const userRegister = useSelector((state) => state.userRegister);
   const { loading, error, userInfo } = userRegister;
 
+  const redirect = location.search ? location.search.split("=")[1] : "/";
   useEffect(() => {
     if (userInfo) {
       history.push(redirect);
     }
-  }, [history, userInfo]);
+  }, [history, userInfo, redirect]);
 
   const submitHandler = (e) => {
     e.preventDefault();
@@ -32,8 +33,6 @@ const RegisterPage = ({ location, history }) => {
       dispatch(register(name, email, password));
     }
   };
-
-  const redirect = location.search ? location.search.split("=")[1] : "/";
 
   return (
     <FormContainer>
